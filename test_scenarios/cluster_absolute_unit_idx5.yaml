@@ -24,7 +24,7 @@ services:
       - SPLUNK_ROLE=splunk_indexer
       - SPLUNK_DEPLOYER_URL=dep1
       - SPLUNK_LICENSE_URI
-      - SPLUNK_PASSWORD
+      - SPLUNK_PASSWORD=welcome1
       - DEBUG=true
     ports:
       - 8000
